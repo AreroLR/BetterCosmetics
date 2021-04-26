@@ -15,4 +15,4 @@ An advanced and customizable cosmetics plugin for Pocketmine-MP.
 - Capes
 - Wings
 - Particles
- #####And more!
+##### And more!
