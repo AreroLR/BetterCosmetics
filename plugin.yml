@@ -1,0 +1,9 @@
+---
+name: CosmeticsPlus
+author: Cr1m
+description: An advanced and highly customizable pocketmine cosmetics plugin.
+main: Cr1m\CosmeticsPlus\Main
+version: 1.0.0
+api:
+- 3.0.0
+...
