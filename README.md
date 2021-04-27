@@ -18,4 +18,5 @@ This plugin is currently not available to the public annd is still in it's early
 - Capes
 - Wings
 - Particles
+- Trails
 ##### And more!
