@@ -1,6 +1,6 @@
 <?php
 
-namespace Core\events;
+namespace Cr1m\CosmeticsPlus;
 
 use Cr1m\CosmeticsPlus\Main;
 use Cr1m\CosmeticsPlus\Pet;
