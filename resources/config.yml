@@ -10,7 +10,7 @@ inventorySlot: 0
 
 # This the inventory item's name.
 # Available colors: https://www.digminecraft.com/lists/sign_color_list_bedrock.php
-itemName "§gCOSMETICS"
+itemName: "§gCOSMETICS"
 
 # This is the description that'll appear below the item's name.
 itemDescription: "§gChoose cosmetics to equip here!"
