@@ -10,6 +10,7 @@ use pocketmine\event\Listener;
 use pocketmine\scheduler\PluginTask;
 use pocketmine\utils\Config;
 
+USE Cr1m\CosmeticsPlus\Forms\FormUI;
 use Cr1m\CosmeticsPlus\Forms\Form;
 use Cr1m\CosmeticsPlus\EventListener;
 
