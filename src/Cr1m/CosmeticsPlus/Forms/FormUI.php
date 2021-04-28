@@ -2,14 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Core\form;
+namespace Cr1m\CosmeticsPlus\Forms;
 
 use Cr1m\CosmeticsPlus\Forms\{ModalForm, Form, CustomForm, SimpleForm};
 
 trait FormUI
 {
-
-
     /**
      * @param callable $function
      * @return CustomForm
