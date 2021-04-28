@@ -4,7 +4,11 @@ namespace Cr1m\CosmeticsPlus;
 
 use Cr1m\CosmeticsPlus\Main;
 use Cr1m\CosmeticsPlus\Pet;
-use Cr1m\CosmeticsPlus\Forms\{Form, FormUI, ModalForm, SimpleForm, CustomForm};
+use Cr1m\CosmeticsPlus\Forms\Form;
+use Cr1m\CosmeticsPlus\Forms\FormUI;
+use Cr1m\CosmeticsPlus\Forms\ModalForm;
+use Cr1m\CosmeticsPlus\Forms\SimpleForm;
+use Cr1m\CosmeticsPlus\Forms\CustomForm;
 
 use pocketmine\Player;
 use pocketmine\event\Listener;
