@@ -80,7 +80,7 @@ trait Particles
                                 $this->cpParticles[$player->getName()] = "InkParticles";
                             } else {
                                 $player->getLevel()->broadcastLevelSoundEvent($player, LevelSoundEventPacket::SOUND_BOTTLE_DRAGONBREATH);
-                                $this->cpParticles[$player->getName()] = "happy";
+                                $this->cpParticles[$player->getName()] = "InkParticles";
                                 $player->sendMessage("§a(!) §1Ink §fparticles equipped!");
                             }
                             break;
