@@ -8,16 +8,19 @@ use pocketmine\entity\Entity;
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
 use pocketmine\scheduler\PluginTask;
-use pocketmine\utils\Config;
 
 USE Cr1m\CosmeticsPlus\Forms\FormUI;
 use Cr1m\CosmeticsPlus\Forms\Form;
 use Cr1m\CosmeticsPlus\EventListener;
+use Cr1m\CosmeticsPlus\Pets;
+use Cr1m\CosmeticsPlus\Particles;
 
 class Main extends PluginBase implements Listener
 {
 
-    use FormUI, petsTrait;
+    use FormUI, Pets, Particles;
+
+    public $cpParticles = [];
 
     public $threeDimensionalPets = [
         "Wolf/wolf.png",
