@@ -14,7 +14,7 @@ class EventListener implements Listener
 
     public $plugin;
 
-    public function __construct(Cr1m\CosmeticsPlus\Main $plugin)
+    public function __construct(Main $plugin)
     {
 
         $this->plugin = $plugin;
