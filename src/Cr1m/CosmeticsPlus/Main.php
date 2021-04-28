@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Cr1m\CosmeticsPlus\Forms;
+namespace Cr1m\CosmeticsPlus;
 
 use pocketmine\entity\Entity;
 use pocketmine\plugin\PluginBase;
