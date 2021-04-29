@@ -4,7 +4,7 @@ namespace Cr1m\CosmeticsPlus\Entities;
 
 use Cr1m\CosmeticsPlus\Main;
 
-use pocketmine\entity\{Entity, Human};
+use pocketmine\entity\Human;
 use pocketmine\Player;
 
 class Pet extends Human

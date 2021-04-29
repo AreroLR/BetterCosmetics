@@ -14,8 +14,10 @@ use Cr1m\CosmeticsPlus\Particles\{DustParticles,
     SlimeParticles,
     SmokeParticles,
     SnowParticles,
-    TotemParticles};
+    TotemParticles
+};
 
+use pocketmine\entity\EntityIds;
 use pocketmine\scheduler\PluginTask;
 use pocketmine\Player;
 use pocketmine\network\mcpe\protocol\{LevelEventPacket, LevelSoundEventPacket};
@@ -158,3 +160,27 @@ trait Particles
             $player->sendMessage("§c(!)§f It looks like you don't have permission to use that!");
         }
     }
+
+    public function getPetUI(Player $player) {
+        if($player->hasPermission("cosmeticsplus.pets")) {
+            $form = $this->createSimpleForm(function(Player $player, ?int $data){
+                if( !is_null($data)) {
+                    switch($data) {
+                        case 1:
+                            $player->sendMessage("§a(!) §2You have equipped the§e ".$this->setPetID($player,EntityIds::CHICKEN). "§2pet");
+                            break;
+                        case 2:
+                            $player->sendMessage("§a(!) §2You have equipped the§e ".$this->setPetID($player,EntityIds::CAT). "§2pet");
+                            break;
+                        default:
+                            return;
+                    } } });
+            $form->setTitle("§3§lPETS");
+            $form->addButton("§l§6CHICKEN",0);
+            $form->addButton("§l§6CAT",0);
+            $form->sendToPlayer($player);
+        } else {
+            $player->sendMessage("§c(!)§f It looks like you don't have permission to use that!");
+        }
+    }
+}
