@@ -2,7 +2,7 @@
 
 # CosmeticsPlus (IN DEVELOPMENT)
 
-An advanced and highly customizable pocketmine cosmetics plugin.
+An advanced and customizable pocketmine cosmetics plugin.
 
 <a href="https://github.com/Cr1mDev/CosmeticsPlus/releases"><img src="https://user-images.githubusercontent.com/78657082/115741287-74589c80-a344-11eb-83bc-98c11b464855.png"></a>
 
