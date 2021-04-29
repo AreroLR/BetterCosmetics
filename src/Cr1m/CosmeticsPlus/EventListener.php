@@ -45,7 +45,7 @@ class EventListener implements Listener
                     case 1:
                         if ($player->hasPermission("cosmeticsplus.minime")) {
 
-                            $this->petOptionHumam($player);
+                            $this->petOptionHuman($player);
 
                         } else {
 
