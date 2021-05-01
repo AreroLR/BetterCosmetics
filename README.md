@@ -4,7 +4,7 @@
 
 An advanced and customizable pocketmine cosmetics plugin.
 
-<a href="https://github.com/Cr1mDev/HelexDev/releases"><img src="https://user-images.githubusercontent.com/78657082/115741287-74589c80-a344-11eb-83bc-98c11b464855.png"></a>
+<a href="https://github.com/HelexDev/releases"><img src="https://user-images.githubusercontent.com/78657082/115741287-74589c80-a344-11eb-83bc-98c11b464855.png"></a>
 
 # Note: 
 This plugin is currently not available to the public and is still in it's early development stages.
