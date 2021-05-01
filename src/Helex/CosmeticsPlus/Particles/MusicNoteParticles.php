@@ -1,6 +1,6 @@
 <?php
 
-namespace Cr1m\CosmeticsPlus\Particles;
+namespace Helex\CosmeticsPlus\Particles;
 
 use pocketmine\level\particle\Particle;
 use pocketmine\level\particle\GenericParticle;

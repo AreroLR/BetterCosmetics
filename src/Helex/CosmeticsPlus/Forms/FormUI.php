@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Cr1m\CosmeticsPlus\Forms;
+namespace Helex\CosmeticsPlus\Forms;
 
-use Cr1m\CosmeticsPlus\Forms\{ModalForm, Form, CustomForm, SimpleForm};
+use Helex\CosmeticsPlus\Forms\{ModalForm, Form, CustomForm, SimpleForm};
 
 trait FormUI
 {

@@ -2,18 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Cr1m\CosmeticsPlus\Forms;
+namespace Helex\CosmeticsPlus\Forms;
 
-class SimpleForm extends Form
+class ModalForm extends Form
 {
-
-    const IMAGE_TYPE_PATH = 0;
-    const IMAGE_TYPE_URL = 1;
 
     /** @var string */
     private $content = "";
-
-    private $labelMap = [];
 
     /**
      * @param callable $callable
@@ -21,14 +16,11 @@ class SimpleForm extends Form
     public function __construct(?callable $callable)
     {
         parent::__construct($callable);
-        $this->data["type"] = "form";
+        $this->data["type"] = "modal";
         $this->data["title"] = "";
         $this->data["content"] = $this->content;
-    }
-
-    public function processData(&$data): void
-    {
-        $data = $this->labelMap[$data] ?? null;
+        $this->data["button1"] = "";
+        $this->data["button2"] = "";
     }
 
     /**
@@ -65,19 +57,33 @@ class SimpleForm extends Form
 
     /**
      * @param string $text
-     * @param int $imageType
-     * @param string $imagePath
-     * @param string $label
      */
-    public function addButton(string $text, int $imageType = -1, string $imagePath = "", ?string $label = null): void
+    public function setButton1(string $text): void
     {
-        $content = ["text" => $text];
-        if ($imageType !== -1) {
-            $content["image"]["type"] = $imageType === 0 ? "path" : "url";
-            $content["image"]["data"] = $imagePath;
-        }
-        $this->data["buttons"][] = $content;
-        $this->labelMap[] = $label ?? count($this->labelMap);
+        $this->data["button1"] = $text;
     }
 
+    /**
+     * @return string
+     */
+    public function getButton1(): string
+    {
+        return $this->data["button1"];
+    }
+
+    /**
+     * @param string $text
+     */
+    public function setButton2(string $text): void
+    {
+        $this->data["button2"] = $text;
+    }
+
+    /**
+     * @return string
+     */
+    public function getButton2(): string
+    {
+        return $this->data["button2"];
+    }
 }

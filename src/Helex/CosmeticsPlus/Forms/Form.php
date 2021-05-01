@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Cr1m\CosmeticsPlus\Forms;
+namespace Helex\CosmeticsPlus\Forms;
 
 use pocketmine\form\Form as IForm;
 use pocketmine\Player;

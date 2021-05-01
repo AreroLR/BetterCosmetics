@@ -1,19 +1,20 @@
 <?php
 
-namespace Cr1m\CosmeticsPlus;
+namespace Helex\CosmeticsPlus;
 
-use Cr1m\CosmeticsPlus\Main;
-use Cr1m\CosmeticsPlus\Pet;
-use Cr1m\CosmeticsPlus\Forms\Form;
-use Cr1m\CosmeticsPlus\Forms\FormUI;
-use Cr1m\CosmeticsPlus\Forms\ModalForm;
-use Cr1m\CosmeticsPlus\Forms\SimpleForm;
-use Cr1m\CosmeticsPlus\Forms\CustomForm;
+use Helex\CosmeticsPlus\Main;
+use Helex\CosmeticsPlus\Pet;
+use Helex\CosmeticsPlus\Forms\Form;
+use Helex\CosmeticsPlus\Forms\FormUI;
+use Helex\CosmeticsPlus\Forms\ModalForm;
+use Helex\CosmeticsPlus\Forms\SimpleForm;
+use Helex\CosmeticsPlus\Forms\CustomForm;
 
 use pocketmine\entity\Entity;
 use pocketmine\math\Vector3;
 use pocketmine\Player;
 use pocketmine\event\Listener;
+use pocketmine\event\player\PlayerJoinEvent;
 
 class EventListener implements Listener
 {

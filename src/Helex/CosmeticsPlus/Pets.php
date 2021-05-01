@@ -1,8 +1,8 @@
 <?php
 
-namespace Cr1m\CosmeticsPlus;
+namespace Helex\CosmeticsPlus;
 
-use Cr1m\CosmeticsPlus\Main;
+use Helex\CosmeticsPlus\Main;
 
 use pocketmine\entity\{Entity, EntityIds};
 use pocketmine\network\mcpe\protocol\AddActorPacket;

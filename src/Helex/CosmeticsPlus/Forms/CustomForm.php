@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Cr1m\CosmeticsPlus\Forms;
+namespace Helex\CosmeticsPlus\Forms;
 
-use Cr1m\CosmeticsPlus\Forms\Form;
+use Helex\CosmeticsPlus\Forms\Form;
 
 class CustomForm extends Form
 {

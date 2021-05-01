@@ -1,10 +1,10 @@
 <?php
 
-namespace Cr1m\CosmeticsPlus;
+namespace Helex\CosmeticsPlus;
 
-use Cr1m\CosmeticsPlus\Forms\{FormUI, CustomForm, Form, ModalForm, SimpleForm};
-use Cr1m\CosmeticsPlus\Entities\Pet;
-use Cr1m\CosmeticsPlus\Particles\{DustParticles,
+use Helex\CosmeticsPlus\Forms\{FormUI, CustomForm, Form, ModalForm, SimpleForm};
+use Helex\CosmeticsPlus\Entities\Pet;
+use Helex\CosmeticsPlus\Particles\{DustParticles,
     EndParticles,
     FireworkParticles,
     HeartParticles,

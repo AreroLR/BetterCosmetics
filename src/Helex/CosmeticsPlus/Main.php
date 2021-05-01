@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Cr1m\CosmeticsPlus;
+namespace Helex\CosmeticsPlus;
 
 use pocketmine\entity\Entity;
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
 use pocketmine\scheduler\PluginTask;
 
-USE Cr1m\CosmeticsPlus\Forms\FormUI;
-use Cr1m\CosmeticsPlus\Forms\Form;
-use Cr1m\CosmeticsPlus\EventListener;
-use Cr1m\CosmeticsPlus\Pets;
-use Cr1m\CosmeticsPlus\Particles;
+USE Helex\CosmeticsPlus\Forms\FormUI;
+use Helex\CosmeticsPlus\Forms\Form;
+use Helex\CosmeticsPlus\EventListener;
+use Helex\CosmeticsPlus\Pets;
+use Helex\CosmeticsPlus\Particles;
 
 class Main extends PluginBase implements Listener
 {

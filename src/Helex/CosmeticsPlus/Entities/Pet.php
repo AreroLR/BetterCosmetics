@@ -1,8 +1,8 @@
 <?php
 
-namespace Cr1m\CosmeticsPlus\Entities;
+namespace Helex\CosmeticsPlus\Entities;
 
-use Cr1m\CosmeticsPlus\Main;
+use Helex\CosmeticsPlus\Main;
 
 use pocketmine\entity\Human;
 use pocketmine\Player;
