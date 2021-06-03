@@ -1,4 +1,5 @@
-<h1 align="center"> 🌹 BetterCosmetics - A PMMP Cosmetics Plugin (In Development) </h1> 
+<h1 align="center"> 🌹 BetterCosmetics - A PMMP Cosmetics Plugin </h1>
+<h4 align="center"> In Development </h4>
 <div align = "center"> 
   <a href="https://github.com/Skylelo/BetterCosmetics/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-license-orange"/> </a>
   <a href="https://github.com/Skylelo/BetterCosmetics/releases"><img src="https://img.shields.io/badge/download-plugin-blue"/> </a>
