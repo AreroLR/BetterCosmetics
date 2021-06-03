@@ -14,6 +14,7 @@ use pocketmine\item\Item;
 use pocketmine\item\ItemIds;
 
 use Skylelo\BetterCosmetics\Particles;
+use Skylelo\BetterCosmetics\Forms\{FormUI, CustomForm, Form, ModalForm, SimpleForm};
 
 class Main extends PluginBase implements Listener
 {
