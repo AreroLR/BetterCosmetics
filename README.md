@@ -8,7 +8,7 @@
 <h4 align="center">A cosmetics plugin for PocketMine-MP (API 3)</h4>
 
 # Features
-##### All of these are configurable via config.yml.
+#### All of these are configurable via config.yml.
 - Most noteable particle effects
 - Wing effects
 - Capes
