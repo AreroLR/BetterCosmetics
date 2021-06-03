@@ -39,7 +39,7 @@ class Main extends PluginBase implements Listener
 
     public function onJoin(PlayerJoinEvent $player)
     {
-        $player->getInventory()->setItem($this->getConfig()->inventorySlot, Item::get($this->getConfig()->itemId, 0, 1)->setCustomName($this->getConfig()->itemName));
+        $player->getInventory()->setItem($this->getConfig()->get("inventorySlot"), Item::get($this->getConfig()->get("itemId"), 0, 1)->setCustomName($this->getConfig()->get("itemName")));
     }
 
     public function onPlayerInteractOn(PlayerInteractEvent $event)
@@ -47,7 +47,7 @@ class Main extends PluginBase implements Listener
         $item = $event->getPlayer()->getInventory()->getItemInHand()->getName();
         $player = $event->getPlayer();
 
-        if ($item == $this->getConfig()->itemName) {
+        if ($item == $this->getConfig()->get("itemName")) {
             $this->plugin->particlesUI($player);
         }
     }
