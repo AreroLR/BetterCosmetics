@@ -1,8 +1,8 @@
 ---
-name: CosmeticsPlus
+name: BetterCosmetics
 author: Skylelo
 description: An advanced and highly customizable pocketmine cosmetics plugin.
-main: Helex\CosmeticsPlus\Main
+main: Skylelo\BetterCosmetics\Main
 version: 1.0.0
 api:
 - 3.0.0

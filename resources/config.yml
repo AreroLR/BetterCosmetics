@@ -1,21 +1,22 @@
 ---
-# This is the world / level you want the item to be present in.
+
+# INVENTORY ITEM CONFIGURATION
+
+# This is the world / level you want the inventory item to be present in.
 world: world
 
-# ITEM CONFIGURATION
-
-# You can change the position of the rose inventory item which opens the coosmetics menu here.
-# The inventory numbers go as follows: https://ibb.co/jhqN0JJ
-inventorySlot: 0
+# You can change the position of the rose inventory item which opens the cosmetics menu here.
+# The inventory numbers go as follows: https://i.ibb.co/nr4GdPP/image.png
+inventorySlot: 4
 
 # This the inventory item's name.
-# Available colors: https://www.digminecraft.com/lists/sign_color_list_bedrock.php
+# Available color codes: https://www.digminecraft.com/lists/sign_color_list_bedrock.php
 itemName: "§gCOSMETICS"
 
 # This is the description that'll appear below the item's name.
 itemDescription: "§gChoose cosmetics to equip here!"
 
 # This is the item itself. You can checkout all the item IDs at: https://www.digminecraft.com/lists/item_id_list_pe.php
-# Default item is a Poppy(Item ID: 38).
+# Default item is a Poppy (Item ID: 38).
 item: 38
 ...
