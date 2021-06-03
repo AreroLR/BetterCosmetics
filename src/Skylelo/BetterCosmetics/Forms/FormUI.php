@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Helex\CosmeticsPlus\Forms;
+namespace Skylelo\BetterCosmetics\Forms;
 
-use Helex\CosmeticsPlus\Forms\{ModalForm, Form, CustomForm, SimpleForm};
+use Skylelo\BetterCosmetics\Forms\{ModalForm, Form, CustomForm, SimpleForm};
 
 trait FormUI
 {

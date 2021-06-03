@@ -1,14 +1,14 @@
 <?php
 
-namespace Helex\CosmeticsPlus\Particles;
+namespace Skylelo\BetterCosmetics\Particles;
 
 use pocketmine\math\Vector3;
 use pocketmine\level\particle\{GenericParticle, Particle};
 
-class SlimeParticles extends GenericParticle
+class TotemParticles extends GenericParticle
 {
     public function __construct(Vector3 $pos)
     {
-        parent::__construct($pos, Particle::TYPE_SLIME);
+        parent::__construct($pos, Particle::TYPE_TOTEM);
     }
 }

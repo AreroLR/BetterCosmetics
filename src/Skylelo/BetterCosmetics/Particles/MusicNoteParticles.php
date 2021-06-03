@@ -1,6 +1,6 @@
 <?php
 
-namespace Helex\CosmeticsPlus\Particles;
+namespace Skylelo\BetterCosmetics\Particles;
 
 use pocketmine\level\particle\Particle;
 use pocketmine\level\particle\GenericParticle;

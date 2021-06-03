@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Helex\CosmeticsPlus\Forms;
+namespace Skylelo\BetterCosmetics\Forms;
 
-use Helex\CosmeticsPlus\Forms\Form;
+use Skylelo\BetterCosmetics\Forms\Form;
 
 class CustomForm extends Form
 {

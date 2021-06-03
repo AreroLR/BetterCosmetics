@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Helex\CosmeticsPlus\Forms;
+namespace Skylelo\BetterCosmetics\Forms;
 
 class SimpleForm extends Form
 {

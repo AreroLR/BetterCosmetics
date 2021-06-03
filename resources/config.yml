@@ -11,12 +11,10 @@ inventorySlot: 4
 
 # This the inventory item's name.
 # Available color codes: https://www.digminecraft.com/lists/sign_color_list_bedrock.php
+# Leave blank to have no item name.
 itemName: "§gCOSMETICS"
-
-# This is the description that'll appear below the item's name.
-itemDescription: "§gChoose cosmetics to equip here!"
 
 # This is the item itself. You can checkout all the item IDs at: https://www.digminecraft.com/lists/item_id_list_pe.php
 # Default item is a Poppy (Item ID: 38).
-item: 38
+itemId: 38
 ...
