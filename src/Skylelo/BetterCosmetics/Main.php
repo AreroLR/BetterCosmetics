@@ -34,26 +34,13 @@ class Main extends PluginBase implements Listener
 
         self::$instance = $this;
 
+        $cfg = $this->getConfig();
+
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
     }
 
     public static function getInstance()
     {
         return self::$instance;
-    }
-
-    public function onJoin(PlayerJoinEvent $player)
-    {
-        $player->getInventory()->setItem($this->getConfig()->get("inventorySlot"), Item::get($this->getConfig()->get("itemId"), 0, 1)->setCustomName($this->getConfig()->get("itemName")));
-    }
-
-    public function onItemInteraction(PlayerInteractEvent $event)
-    {
-        $item = $event->getPlayer()->getInventory()->getItemInHand()->getName();
-        $player = $event->getPlayer();
-
-        if ($item == $this->getConfig()->get("itemName")) {
-            $this->plugin->particlesUI($player);
-        }
     }
 }
