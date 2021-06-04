@@ -7,7 +7,7 @@ use pocketmine\event\player\PlayerInteractEvent;
 
 use Skylelo\BetterCosmetics\Main;
 
-class JoinEvent implements Listener
+class PlayerJoinEvent implements Listener
 {
     public $plugin;
 
