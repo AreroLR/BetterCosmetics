@@ -21,6 +21,8 @@ class Main extends PluginBase implements Listener
     use FormUI, Particles;
 
     public $bcParticles = [];
+    private static $instance = null;
+
 
     public function onLoad()
     {
@@ -35,6 +37,11 @@ class Main extends PluginBase implements Listener
         self::$instance = $this;
 
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
+    }
+
+    public static function getInstance()
+    {
+        return self::$instance;
     }
 
     public function onJoin(PlayerJoinEvent $player)
