@@ -10,11 +10,10 @@
 
 # Features
 #### All of these are configurable via config.yml.
-- Most noteable particle effects
-- Wing effects
+- Most particle effects
 - Capes
 - Trail effects
-- Inventory items
+- Inventory item
 
 # Installation 
 First, download the latest release of BetterCosmetics from the [releases](https://github.com/Skylelo/BetterCosmetics/releases) page or [poggit](https://www.youtube.com/watch?v=dQw4w9WgXcQ). After that, navigate to the "plugins" directory on your server's file manager. Once, you're there, upload the .phar file of the plugin to the plugins directory.
