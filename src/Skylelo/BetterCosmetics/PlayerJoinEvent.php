@@ -11,7 +11,7 @@ class PlayerJoinEvent implements Listener
 {
     public $plugin;
 
-    public function __construct(BetterCosmetics $plugin)
+    public function __construct(Main $plugin)
     {
         $this->plugin = $plugin;
         $this->plugin->getServer()->getPluginManager()->registerEvents($this, $plugin);
