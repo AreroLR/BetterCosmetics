@@ -22,7 +22,7 @@ class PlayerJoinEvent implements Listener
         $item = $event->getPlayer()->getInventory()->getItemInHand()->getName();
         $player = $event->getPlayer();
 
-        if ($item == $this->cfg->get("itemName")) {
+        if ($item == $this->plugin->cfg->get("itemName")) {
             $this->plugin->particlesUI($player);
         }
     }
