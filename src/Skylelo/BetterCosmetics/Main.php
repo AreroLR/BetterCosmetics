@@ -9,7 +9,7 @@ use pocketmine\Player;
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
 use pocketmine\scheduler\PluginTask;
-use pocketmine\event\player\PlayerJoinEvent;
+use Skylelo\BetterCosmetics\PlayerJoinEvent;
 use pocketmine\item\Item;
 use pocketmine\item\ItemIds;
 
@@ -22,6 +22,7 @@ class Main extends PluginBase implements Listener
 
     public $bcParticles = [];
     private static $instance = null;
+    public $cfq;
 
     public function onLoad()
     {
@@ -34,9 +35,10 @@ class Main extends PluginBase implements Listener
 
         self::$instance = $this;
 
-        $cfg = $this->getConfig();
+        $this->cfg = $this->getConfig();
 
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
+        $this->getServer()->getPluginManager()->registerEvents(new PlayerJoinEvent($this), $this);
     }
 
     public static function getInstance()
