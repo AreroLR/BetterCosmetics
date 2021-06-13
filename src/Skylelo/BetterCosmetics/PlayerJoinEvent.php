@@ -5,6 +5,7 @@ namespace Skylelo\BetterCosmetics;
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerInteractEvent;
 
+use pocketmine\item\Item;
 use Skylelo\BetterCosmetics\Main;
 
 class PlayerJoinEvent implements Listener
@@ -14,7 +15,6 @@ class PlayerJoinEvent implements Listener
     public function __construct(Main $plugin)
     {
         $this->plugin = $plugin;
-        $this->plugin->getServer()->getPluginManager()->registerEvents($this, $plugin);
     }
 
     public function onPlayerInteraction(PlayerInteractEvent $event)
@@ -26,4 +26,13 @@ class PlayerJoinEvent implements Listener
             $this->plugin->particlesUI($player);
         }
     }
+
+    public function onJoin(\pocketmine\event\player\PlayerJoinEvent $event) {
+
+        $player = $event->getPlayer();
+
+        $player->getInventory()->setItem($this->plugin->cfg->get("inventorySlot"), Item::get($this->plugin->cfg->get("itemId"))->setCustomName($this->plugin->cfg->get("itemName")));
+
+    }
+
 }
